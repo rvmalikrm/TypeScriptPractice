@@ -5,6 +5,9 @@ if(number1>number2)
 {
     console.log("Number 1 is bigger");
 }
-else{
+else if(number2>number1){
     console.log("Number2 is greater");
+}
+else{
+    console.log("Both number are equals");
 }
