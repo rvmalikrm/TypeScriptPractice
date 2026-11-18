@@ -12,8 +12,9 @@ let word:string="This is automation testing book";
 let counter:number=0;
 
 for(let i=0;i<word.length;i++){
+    //   if ("AEIOU".includes(str[i]))
     if(word[i]==='A'||word[i]==='E'||word[i]==='I'||word[i]==='O'||word[i]==='U'||word[i]==='a'||word[i]==='e'||word[i]==='i'||word[i]==='o'||word[i]==='u'){
         counter++;
     }
 }
-console.log("The number fo vowels are ", counter);
+console.log("The number of vowels are ", counter);
