@@ -1,12 +1,12 @@
 //Handle Promise rejection
 
 
-function login():Promise<string>{
+function login2():Promise<string>{
     return Promise.reject("Invalid username or Password");
 }
 async function displayLogin():Promise<void>{
     try{
-        const result =await login();
+        const result =await login2();
         console.log("This is resolve result:", result);
     }
     catch(error){
